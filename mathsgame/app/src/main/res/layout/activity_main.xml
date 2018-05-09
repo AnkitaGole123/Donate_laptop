@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.navgurukul.mathsgame.MainActivity">
+
+    <ImageView
+        android:id="@+id/image_visible"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/welcome"
+        android:layout_marginLeft="40dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/image_looser"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/looser"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/image_winner"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/winner"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/image_visual"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/emoji"
+        android:layout_marginLeft="40dp"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/display_text"
+        android:text="a X b"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/input_number"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:hint="Type Answer"/>
+    <Button
+        android:id="@+id/answer_check"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/number_generate"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:text="Generate a number"
+        android:layout_gravity="center"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>

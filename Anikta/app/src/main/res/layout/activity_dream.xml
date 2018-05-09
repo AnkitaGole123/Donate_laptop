@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37474F">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/heart"
+        android:layout_marginBottom="420dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We need your"
+        android:textSize="20sp"
+        android:textColor="#ffffff "
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="110dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Love"
+        android:textSize="20sp"
+        android:textColor="#ff3d00"
+        android:textStyle="bold"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="230dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(And some"
+        android:textSize="20sp"
+        android:textColor="#ffffff "
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="140dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Laptop)"
+        android:textSize="20dp"
+        android:textColor="#ffffff "
+        android:textStyle="bold"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="200dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Donate your old and spare laptop to underprevegeld girl who's been denied education, and give her the opportunity to learn software to better her employbility and equality of life. "
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="We will pickup at your convinience."
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="80dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Give us a call at +919958003242"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="80dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="learn more about our mission at NavGururukul.org"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="100dp"
+        android:text="Donate"
+        android:background="#03a9f4 "
+        android:textSize="30dp"
+        android:onClick="saythanks"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Thank you!!!!"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+</RelativeLayout>
